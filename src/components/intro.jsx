@@ -4,8 +4,8 @@ function Intro() {
 
   return (
     <>
-      <div className="grid grid-cols-2 gap-4 mt-10 mx-20">
-        <div className="bg-slate-500 place-self-center">
+      <div className="grid grid-cols-2 gap-4 mt-10 mb-7 mx-20">
+        <div className="place-self-center text-xl">
           Jannire Trujillo
         </div>
         <div>
