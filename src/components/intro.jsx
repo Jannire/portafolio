@@ -4,13 +4,13 @@ function Intro() {
 
   return (
     <>
-      <div className="grid grid-cols-2 gap-4 mt-10 mb-7 mx-20">
-        <div className="place-self-center text-xl">
+      <div className="grid grid-cols-2 h-screen">
+        <div className="place-self-center text-5xl">
           Jannire Trujillo
         </div>
-        <div>
+        <div className="place-self-center mr-36">
           <p>
-            Estudiante de decimo ciclo de
+            Estudiante de décimo ciclo de
             Ingeniería de Sistemas en la
             Universidad de Lima en Quinto
             Superior. Conocimientos en desarrollo
@@ -21,7 +21,7 @@ function Intro() {
             BPM.
           </p>
           <br />
-          <p>
+          <p className="pt-10">
             Capacidades de trabajo en equipo,
             solución de problemas, pensamiento
             crítico y liderazgo. Interesada en áreas

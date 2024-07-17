@@ -17,9 +17,25 @@ export default {
         "fondo": "#252A34",
         "pinky": "#FF2E63",
         "bluey": "#08D9D6"
-        
+
       },
-    },
+      animation: {
+        tilt: "tilt 10s infinite linear"
+      },
+      keyframes: {
+        tilt: {
+          "0%, 50%, 100%": {
+            transform: "rotate(0deg)",
+          },
+          "25%": {
+            transform: "rotate(2deg)",
+          },
+          "75%": {
+            transform: "rotate(-2deg)",
+          },
+      }
+    }
   },
-  plugins: [],
+},
+plugins: [],
 }
