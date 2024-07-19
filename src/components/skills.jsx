@@ -20,7 +20,7 @@ function Skills() {
     <div>
 
       <p className="text-center text-2xl mt-3">
-        Skills
+        Habilidades
       </p>
       <div className="flex justify-center pl-5 gap-x-10 pt-5 pb-10">
         <ul className="text-center">
@@ -34,7 +34,7 @@ function Skills() {
           }
         </ul>
         <ul className="text-center">
-          <li className="text-xl text-pinky">Tools</li>
+          <li className="text-xl text-pinky">Herramientas</li>
           {
             tools.map(val => (
               <li className="pt-0.5">

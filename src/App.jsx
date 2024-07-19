@@ -35,14 +35,14 @@ function App() {
         }
       `}</style>
       <div id="bodyColor" ref={colorRef} className="absolute z-10 top-0 left-0">
+      </div>
 
-        <div className="divide-y">
-          <Intro />
-          <EXP />
-          <Educacion />
-          <Skills />
-          <Contacto />
-        </div>
+      <div className="divide-y">
+        <Intro />
+        <EXP />
+        <Educacion />
+        <Skills />
+        <Contacto />
       </div>
     </>
   )
