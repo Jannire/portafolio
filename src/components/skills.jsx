@@ -4,11 +4,11 @@ import { useState } from 'react'
 
 function Skills() {
   const [lenguajes] = useState([
-    "JavaScript", "HTML", "CSS", "SQL", "Python", "C#", "Java", "PostgreSQL"
+    "JavaScript", "HTML/CSS", "SQL", "Python", "C#", "Java", "PostgreSQL", "MongoDB"
   ]);
 
   const [tools] = useState([
-    "Git", "Github", "Postman", "Insomnia", "Visual Studio Code", "Unity", "npm", "Chrome DevTools"
+    "Git", "Github", "Postman/Insomnia", "Azure", "Visual Studio Code", "Unity", "npm", "Chrome DevTools"
   ]);
 
   const [framework] = useState([

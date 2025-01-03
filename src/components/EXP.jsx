@@ -9,7 +9,26 @@ function EXP() {
       </p>
       <div className=" flex justify-center">
         <div className="flex flex-col w-1/2 gap-5">
+          <div className="relative group mt-5">
+            <div className="absolute inset-0 rounded-lg blur bg-pinky bg-gradient-to-r from-pinky to-bluey opacity-75 group-hover:opacity-100 transition duration-200 animate-tilt"></div>
 
+            <div className="relative bg-gray-800 drop-shadow-md grid grid-cols-6 rounded-lg gap-7 py-3 px-1">
+              <div className="text-gray-400 place-self-start justify-self-end col-span-2">
+                Octubre 2024 – Presente
+              </div>
+              <div className="col-span-4">
+                <h1 className="text-pinky font-bold mb-3"> MANAGEMENT SOLUTIONS – Consultor de Tecnología (Data Engineer)</h1>
+                <ul className="list-disc">
+                  <li>Análisis de tablas en Oracle y Databricks para consistencia de datos. </li>
+                  <li>Migración de tablas desde Oracle a Azure con SparkSQL/pySpark para
+                    procesamiento escalable.</li>
+                  <li>Interpretación y depuración de código SQL para optimización de
+                  procesos.</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
           <div className="relative group mt-5">
             <div className="absolute inset-0 rounded-lg blur bg-pinky bg-gradient-to-r from-pinky to-bluey opacity-75 group-hover:opacity-100 transition duration-200 animate-tilt"></div>
 

@@ -13,9 +13,8 @@ function Intro() {
         <div className="place-self-center mr-36">
 
           <p className="text-xs md:text-xl">
-            Estudiante de décimo ciclo de
-            Ingeniería de Sistemas en la
-            Universidad de Lima en Quinto
+            Bachiller en Ingeniería de Sistemas de la
+            Universidad de Lima en Tercio
             Superior. Conocimientos en desarrollo
             web full stack, desarrollo, diseño móvil
             y automatización con RPA. Desarrollo
